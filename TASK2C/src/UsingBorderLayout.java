@@ -9,5 +9,8 @@ public class UsingBorderLayout {
         frame.add(title, BorderLayout.NORTH);
         JButton rapButton = new JButton("Rap Music");
         frame.add(rapButton, BorderLayout.SOUTH);
+        JButton gospelButton = new JButton("Gospel Music");
+        frame.add(gospelButton, BorderLayout.WEST);
+
     }
 }
