@@ -13,5 +13,8 @@ public class UsingBorderLayout {
         frame.add(gospelButton, BorderLayout.WEST);
         JButton balladsButton = new JButton("Ballads Music");
         frame.add(balladsButton, BorderLayout.EAST);
+        frame.setSize(600, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 }
